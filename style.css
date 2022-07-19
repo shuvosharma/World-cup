@@ -14,10 +14,44 @@
     text-decoration: none;
     background-color: #DD0000;
 }
+/* Header end */
+/* Main */
+.update{
+     padding: 30px;
+height: 312px;
+width: 312px;
+left: 140px;
+top: 826px;
+border-radius: 10px;
+display: grid;
+grid-template-columns:repeat(1, 1fr);
+border: 2px solid red;
+
+}
+.update a{
+    text-decoration: none;
+
+}
+.main{
+    padding-top: 30px;
+}
+.button-update{
+    height: 64px;
+width: 252px;
+left: 170px;
+top: 856px;
+border-radius: 10px;
+
+}
+#bg{
+    background-color: #DD0000;
+}
+
 
 /* Footer */
 .end-logo{
 font-family: Poppins;
+color: #FFFFFF;
 font-size: 40px;
 font-weight: 600;
 line-height: 60px;
