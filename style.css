@@ -17,7 +17,7 @@
 /* Header end */
 /* Main */
 .update{
-     padding: 30px;
+ padding:50px;
 height: 312px;
 width: 312px;
 left: 140px;
@@ -32,7 +32,7 @@ border: 2px solid red;
     text-decoration: none;
 
 }
-.main{
+.main-contain{
     padding-top: 30px;
 }
 .button-update{
@@ -46,7 +46,26 @@ border-radius: 10px;
 #bg{
     background-color: #DD0000;
 }
+/* main point */
 
+/* t */
+.update-box{
+    display: flex;
+    float: left;
+}
+.container{
+
+      justify-content: flex-end;
+    display: grid;
+    grid-template-columns:repeat(3,300px);
+    gap: 10px;
+}
+.item{
+    background-color: aliceblue;
+    border: 10px solid indianred;
+    width: 300px;
+
+}
 
 /* Footer */
 .end-logo{
