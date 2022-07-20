@@ -3,17 +3,23 @@
 .all{
     align-content: center;
     align-items: center;
-    padding: 20px;
-    border: 2px dotted green;
+    margin: 0;
+    padding: 0;
+}
+.hfont{
+    font-size: 50px;
+font-weight: 700;
 }
 .div1{
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    margin: auto;
+    padding:20px;
     display: flex;
     background-color: #161616;
     color: aliceblue;
-    width: 100%;
+    width:1342px;
+    height: 464px;
     border-radius: 30px;
 }
 .header-button{
@@ -27,15 +33,17 @@
 /* Header end */
 /* Main */
 .update{
- padding:50px;
+align-items: center;
+
+padding:50px;
 height: 312px;
 width: 312px;
 left: 140px;
 top: 826px;
-border-radius: 10px;
+border-radius: 20px;
 display: grid;
 grid-template-columns:repeat(1, 1fr);
-border: 2px solid red;
+border:1px solid black;
 
 }
 .update a{
@@ -46,7 +54,7 @@ border: 2px solid red;
     padding-top: 30px;
 }
 .button-update{
-    height: 64px;
+height: 64px;
 width: 252px;
 left: 170px;
 top: 856px;
@@ -77,9 +85,16 @@ border-radius: 10px;
 }
 .item{
     background-color: aliceblue;
-    border: 10px solid indianred;
+    border: 20px solid white;
+    border-radius: 5px;
     width: 300px;
 
+}
+/* container end logo */
+.logo{
+    padding:5px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -94,8 +109,10 @@ text-align: center;
 
 }
 .line{
-    width: 1320px;
-    color: #FFFFFF1A;
+width: 1320px;
+top: 2330px;
+margin: 30px;
+color:white;
 }
 .end{
     height: 444px;
@@ -104,4 +121,17 @@ left: 0px;
 top: 1464px;
 border-radius: 0px;
 background-color: #161616;
+}
+.social li{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.social-media{
+    margin-left: 40px;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
 }
